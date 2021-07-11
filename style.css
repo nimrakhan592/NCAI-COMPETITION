@@ -1,0 +1,251 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+/* navbar section  */
+/* .navabar{
+  padding: 0.8em;
+} */
+
+.navbar-nav li{
+  padding-right: 10px;
+}
+
+.nav-link{
+  font-size: 1.1em !important;
+}
+.fa-facebook-square,.fa-youtube , .fa-twitter,.fa-google,.fa-instagram
+{
+font-size: 3em;
+padding:1rem ;
+}
+.fa-instagram{
+  color: #517fa4;
+}
+.fa-facebook-square{
+  color: #3b5998;
+}
+.fa-youtube{
+  color:#bb0000;
+}
+.fa-google{
+  color:#dd4b39;
+}
+.fa-facebook-square:hover
+,.fa-youtube:hover , 
+.fa-twitter:hover,
+.fa-google:hover,
+.fa-instagram:hover{
+  color: rgba(0, 0, 0,0.3);
+}
+* {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+.signup {
+  background-color: #04AA6D;
+  color: white;
+  padding: 5px 20px;
+  margin: 1px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.signup:hover {
+  opacity:0.4;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 5px 20px;
+  background-color: #f44336;
+  width: 100%;
+}
+.cancelbtn:hover {
+  opacity:0.4;
+}
+
+/* Add padding to container elements */
+/* .container {
+  padding: 16px;
+}
+ */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-image:url('http://stalionhikers.files.wordpress.com/2013/07/beautiful-northern-areas-pakistan.jpg'); ;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: rgba(0, 0, 0,0.4);
+  margin: 15px auto 10px auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+/* services section  */
+.services{
+  background-color: rgba(0, 0, 0,0.3);
+}
+
+
+
+
+/* homepage section  */
+.site{
+  height: 100%;
+  width: 100%;
+   background-repeat: no-repeat; 
+   background-size: cover;
+   background-position:center;  
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('http://stalionhikers.files.wordpress.com/2013/07/beautiful-northern-areas-pakistan.jpg');
+   
+
+
+}
+.maincontent{
+text-align: center;  
+padding: 50px 50px 50px 50px;
+padding-top: 100px;
+justify-content: center;
+font-size: 3em;
+font-variant: small-caps;
+}
+
+
+
+
+.maincontent h1{
+
+font-family: 'Lobster', cursive;
+  text-shadow: 2px 2px 2px white;
+  font-size: 50px;
+}
+.maincontent h3{
+font-family: 'Caveat', cursive;
+  color: black;
+  font-size: 50px;
+}
+  .btn1{
+    padding-right: 12px;
+    padding-left: 12px;
+      padding-top: 2px;
+      padding-bottom: 5px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-variant: small-caps;
+  }
+  .btn1:hover{
+    opacity: 0.8;
+  }
+  .btn2:hover{
+    opacity: 0.8;
+  }
+  .btn2{
+    padding-right: 12px;
+    padding-left: 12px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    background-color: #00b894;
+    border-radius: 5px;
+    font-size: 16px;
+    font-variant: small-caps;
+    color: white;
+    text-align: center;
+
+  }
+ 
+  
+  .changecontent:after{
+  content: '';
+  animation: changetext 20s infinite linear;
+  color: #00b894;
+   }
+   @keyframes changetext{
+     0%{content:"KHAGHAAN";}
+     20%{content:"GILGIT";}
+     40%{content:"HUNZA";}
+     65%{content:"MURREE";}
+     80%{content:"KASHMIR";}
+     100%{content:"SWAT";}
+     0%{color: grey;}
+     20%{color: green;}
+     40%{color: #08088A;}
+     65%{color: white;}
+     80%{color:#00b894 ;}
+     100%{color: brown;}
+
+   a{
+     
+     padding: 10px;
+   }
+   
+
+   /* about us section   */
+
+
